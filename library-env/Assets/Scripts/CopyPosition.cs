@@ -6,10 +6,11 @@ public class CopyPosition : MonoBehaviour
 {
     [SerializeField] Transform transTarget;
 
+
     // Update is called once per frame
     void Update()
     {
         transform.position = transTarget.position;
-        print(transTarget.ToString());
+        print(transTarget);
     }
 }
